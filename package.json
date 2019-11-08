@@ -1,0 +1,24 @@
+{
+  "name": "theoriz-homepage",
+  "version": "1.0.0",
+  "description": "Theoriz's homepage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zhang00710",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhang00710/theoriz-homepage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhang00710/theoriz-homepage/issues"
+  },
+  "homepage": "https://github.com/zhang00710/theoriz-homepage#readme"
+}
