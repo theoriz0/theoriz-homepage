@@ -1,16 +1,16 @@
 body {
-  background-color: black;
+  background-color: #111;
   margin: auto;
   height: 100vh;
 }
 
 h1 {
-  color: white;
+  color: #ddd;
+  font-size: 2em;
 }
 
 main {
   margin: auto;
-  width: 750px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,16 +18,13 @@ main {
   height: 100vh;
 }
 
-header {
-  margin-top: 70px;
+.quote {
+  margin-top: 25vh;
 }
-
-header h1 {
-  font-size: 2.7em;
-  font-weight: 100;
+blockquote {
+  font-family: 'Mate SC', 'Times New Roman', serif;
 }
-
-blockquote p::before {
+blockquote h1::before {
   content: '\201C';
 }
 
@@ -36,8 +33,9 @@ blockquote p::after {
 }
 
 blockquote footer {
-  display: none;
+  text-align: right;
 }
+
 footer {
   align-self: bottom;
   margin-bottom: 20px;
@@ -46,7 +44,7 @@ p,span,footer {
   color: #ddd;
 }
 footer * {
-  color: #333;
+  color: #555;
 }
 footer {
   margin-left: 12px;
@@ -60,7 +58,5 @@ footer {
 }
 .quote {
   margin-bottom: 100px;
-}
-quote {
   color: #ddd;
 }
