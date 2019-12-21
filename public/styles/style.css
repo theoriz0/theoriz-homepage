@@ -60,3 +60,15 @@ footer {
   margin-bottom: 100px;
   color: #ddd;
 }
+
+.button {
+  padding: 0 4em;
+  line-height: 2;
+  text-align: center;
+  color: #111;
+  background-color: #ddd;
+}
+
+.button:hover, .button:active {
+  background-color: #777;
+}
